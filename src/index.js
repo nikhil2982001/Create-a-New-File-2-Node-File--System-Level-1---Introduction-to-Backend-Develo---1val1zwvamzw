@@ -12,8 +12,10 @@ const writeFile = async (fileName, fileContent) => {
           console.log(`File ${fileName} created and data written successfully!`);
   
 };
-    writeFile("myfile.txt", "Newton School");
+    writeFile("fileName", "fileContent");
 module.exports =  writeFile ;
+
+    
     
 
 
